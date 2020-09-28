@@ -95,7 +95,8 @@ class DoublyLinkedList:
         while ptr.next is not None:
             print(ptr.data, sep= " ")
             ptr = ptr.next
-        print(ptr.data, self.head.data, self.tail.data, self.size)
+        print(ptr.data)
+        print("Head = {}, Tail= {}, Size= {}".format(self.head.data, self.tail.data, self.size))
 
 dlist = DoublyLinkedList()
 dlist.push(5)
